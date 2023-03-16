@@ -1,13 +1,17 @@
+
+<img width="500" alt="spotify-track-artist" src="https://user-images.githubusercontent.com/5443727/225764942-8ed7d5bc-3bf8-4f3e-94e6-7c788ee7058d.png">
+
+
 To show the artist and name of the current playing track on Spotify in your [tmux](https://github.com/tmux/tmux) status bar.
 
 Not the first tmux/spotify code. But an attempt to be as simple as possible.
 
-### Requirements
+## Requirements
 
 - macOS (as we use applescript)
 - Spotify
 
-### Installation
+## Installation
 
 1. Clone this repository
 2. `cd` into the root of repository-folder
@@ -21,10 +25,14 @@ Not the first tmux/spotify code. But an attempt to be as simple as possible.
 
 4. When you start playing a song on spotify, it should now show in tmux!
 
+---
+
 ### (Install) options
 
 `--filename`: Use parameter to specify the name of the file the code should be added to. Default ~/.tmux.conf."
+
 `--with-datetime`: Add datetime info to your statusbar. Default false"
+
 
 ### Customization
 
@@ -32,7 +40,8 @@ If you want to change the code related that generates the name of the track and 
 
 More spotify commands can be found here: `/Applications/Spotify.app/Contents/Resources/Spotify.sdef`
 
-#### Applescript syntax highlightin in nvim
+
+### Applescript syntax highlighting in nvim
 
 To get syntax highlighting for applescript (in nvim + lua):
 
